@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../../../../../style.css">
+    <link rel="stylesheet" href="../style.css">
 
-    <title>Joe Pasquale - Molar Mass Calculator</title>
+    <title>Joe Pasquale - Stable Matching Solver</title>
 
 </head>
 
@@ -25,40 +25,42 @@
         <div class="navbar-collapse collapse" id="navbar_data">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="../../../../../index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../../../index.html">Applets</a>
+                    <a class="nav-link" href="./applets.html">Applets</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../../../../projects.html">Projects</a>
+                    <a class="nav-link" href="../html/projects.html">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../../../../../docs/resume.pdf" target="_blank">Resume</a> </li>
+                    <a class="nav-link" href="../docs/resume.pdf" target="_blank">Resume</a> </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../../../../misc.html">Miscellaneous</a>
+                    <a class="nav-link" href="../html/misc.html">Miscellaneous</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <div class="container-fluid">
-        <div id="info_container">
-            <div class="row">
-                <div class="col center">
-                    <h1>Molar Mass Calculator</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col center">
-                    <p>A simple molar mass calculator
-                </div>
+        <div class="row">
+            <div class="col center">
+                <h1>Applets</h1>
             </div>
         </div>
-        <!--Applet start-->
-        <div id="calc_container" class="center project-container">
+        <div class="row">
+            <div class="col center">
+                <a href="./matcher/src/html/matcher.html"><button class="linkbox">Stable
+                        Matcher</button></a>
+            </div>
         </div>
-        <!--Applet end-->
+        <div class="row">
+            <div class="col center">
+                <a href="./mmcalculator/src/html/mmcalculator.html"><button class="linkbox">Molar Mass
+                        Calculator
+                    </button></a>
+            </div>
+        </div>
     </div>
 
     <footer class="page-footer">
@@ -79,15 +81,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-
-    <!--React Scripts-->
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
-
-    <!-- Load our React component. -->
-    <script src="../javascript/mmcalculator.js"></script>
 
 </body>
 
