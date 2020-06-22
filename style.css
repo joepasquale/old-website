@@ -41,6 +41,7 @@ img.misc-img {
     height: 256px;
     width: auto;
     border-radius: 5px;
+    align-content: center;
 }
 
 footer {
