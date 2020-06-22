@@ -37,7 +37,11 @@
     border-radius: 5px;
 }
 
-
+img.misc-img {
+    height: 512px;
+    width: auto;
+    border-radius: 5px;
+}
 
 footer {
     padding-top: 10px;
