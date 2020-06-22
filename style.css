@@ -21,3 +21,10 @@
 .textbox {
     padding: 5px;
 }
+
+#composite {
+    max-width: 25%;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
