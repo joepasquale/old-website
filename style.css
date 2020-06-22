@@ -5,9 +5,17 @@
 }
 
 .linkbox {
-    border: #707070 solid 2px;
-    border-radius: 2px;
-    margin: -1px;
+    border: #343a40 solid 2px;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: #343a40;
+        
+}
+
+.social_link {
+    color: white;
+    text-decoration: none;
+
 }
 
 .textbox {
