@@ -3,3 +3,13 @@
     align-content: center;
     align-items: center;
 }
+
+.linkbox {
+    border: #707070 solid 2px;
+    border-radius: 2px;
+    margin: -1px;
+}
+
+.textbox {
+    padding: 5px;
+}
