@@ -7,7 +7,7 @@
 .linkbox {
     border: #343a40 solid 2px;
     border-radius: 5px;
-    margin: 1px;
+    margin: 2px;
     background-color: #343a40;
     color: white;
     text-decoration: none;
@@ -23,4 +23,8 @@
     height: auto;
     border-radius: 10px;
     padding: 5px;
+}
+
+footer {
+    width: 100%;
 }
