@@ -25,6 +25,10 @@
     padding: 5px;
 }
 
+.project-box {
+    border:  #343a40 2px solid; 
+}
+
 footer {
     width: 100%;
 }
